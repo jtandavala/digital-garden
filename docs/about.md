@@ -1,3 +1,3 @@
-My name is José Tandavala, I started my career as a web developer in 2014 in my hometown (Lobito) building software for small and medium-sized companies. Currently, I work as a Senior software developer in a multinational company based in Luanda building software for various industries namely: civil engineering, logistics, financial, telecommunications, HR, etc.
+My name is José Tandavala, I started my career as a web developer in 2014 in my hometown (Lobito) building software for small and medium-sized companies. Currently, I work as a Senior software developer in a multinational company based in Luanda building software for various industries namely: civil engineering, logistics, financial, HR, etc.
 
 I realized the importance of data science in today's world and aim to enhance new skills in machine learning to develop systems that leverage data for prediction, recommendation, and pattern discovery.
