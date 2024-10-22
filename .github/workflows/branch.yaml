@@ -25,7 +25,7 @@ jobs:
 
       - name: Install MkDocs and material theme
         run: |
-          uv add mkdocs
+          pip install mkdocs
 
       - name: Build and Deploy to GitHub Pages
         run: |
