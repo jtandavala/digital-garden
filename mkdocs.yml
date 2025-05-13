@@ -1,6 +1,15 @@
 site_name: Digital Garden
 nav:
   - Home: index.md
+  - Software Engineering:
+    - Foundational Design Principles:
+        - Overview: foundational_design_principles.md
+        - Encapsulate What Varies: encapsulate_what_varies.md
+        - Favor Composition Over Inheritance: favor_composition_over_inheritance.md
+        - Program to interfaces not implementations: program_to_interfaces_not_implementations.md
+        - Loose coupling: loose_coupling.md
+  - Psychology: 
+    - Overview: psychology.md
   - About: about.md
 theme:
   name: material

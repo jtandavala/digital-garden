@@ -4,14 +4,14 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width,initial-scale=1" />
 
-    <link rel="prev" href=".." />
+    <link rel="next" href="about/" />
 
-    <link rel="icon" href="../assets/images/favicon.png" />
+    <link rel="icon" href="assets/images/favicon.png" />
     <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.5.42" />
 
-    <title>About - Digital Garden</title>
+    <title>Digital Garden</title>
 
-    <link rel="stylesheet" href="../assets/stylesheets/main.0253249f.min.css" />
+    <link rel="stylesheet" href="assets/stylesheets/main.0253249f.min.css" />
 
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -26,7 +26,7 @@
     </style>
 
     <script>
-      (__md_scope = new URL("..", location)),
+      (__md_scope = new URL(".", location)),
         (__md_hash = (e) =>
           [...e].reduce((e, _) => (e << 5) - e + _.charCodeAt(0), 0)),
         (__md_get = (e, _ = localStorage, t = __md_scope) =>
@@ -55,13 +55,15 @@
       autocomplete="off"
     />
     <label class="md-overlay" for="__drawer"></label>
-    <div data-md-component="skip"></div>
+    <div data-md-component="skip">
+      <a href="#introduction" class="md-skip"> Skip to content </a>
+    </div>
     <div data-md-component="announce"></div>
 
     <header class="md-header md-header--shadow" data-md-component="header">
       <nav class="md-header__inner md-grid" aria-label="Header">
         <a
-          href=".."
+          href="."
           title="Digital Garden"
           class="md-header__button md-logo"
           aria-label="Digital Garden"
@@ -84,7 +86,7 @@
               <span class="md-ellipsis"> Digital Garden </span>
             </div>
             <div class="md-header__topic" data-md-component="header-topic">
-              <span class="md-ellipsis"> About </span>
+              <span class="md-ellipsis"> Home </span>
             </div>
           </div>
         </div>
@@ -198,7 +200,7 @@
                 >
                   <label class="md-nav__title" for="__drawer">
                     <a
-                      href=".."
+                      href="."
                       title="Digital Garden"
                       class="md-nav__button md-logo"
                       aria-label="Digital Garden"
@@ -217,12 +219,6 @@
                   </label>
 
                   <ul class="md-nav__list" data-md-scrollfix>
-                    <li class="md-nav__item">
-                      <a href=".." class="md-nav__link">
-                        <span class="md-ellipsis"> Home </span>
-                      </a>
-                    </li>
-
                     <li class="md-nav__item md-nav__item--active">
                       <input
                         class="md-nav__toggle md-toggle"
@@ -230,7 +226,49 @@
                         id="__toc"
                       />
 
-                      <a href="./" class="md-nav__link md-nav__link--active">
+                      <label
+                        class="md-nav__link md-nav__link--active"
+                        for="__toc"
+                      >
+                        <span class="md-ellipsis"> Home </span>
+
+                        <span class="md-nav__icon md-icon"></span>
+                      </label>
+
+                      <a href="." class="md-nav__link md-nav__link--active">
+                        <span class="md-ellipsis"> Home </span>
+                      </a>
+
+                      <nav
+                        class="md-nav md-nav--secondary"
+                        aria-label="Table of contents"
+                      >
+                        <label class="md-nav__title" for="__toc">
+                          <span class="md-nav__icon md-icon"></span>
+                          Table of contents
+                        </label>
+                        <ul
+                          class="md-nav__list"
+                          data-md-component="toc"
+                          data-md-scrollfix
+                        >
+                          <li class="md-nav__item">
+                            <a href="#introduction" class="md-nav__link">
+                              <span class="md-ellipsis"> Introduction </span>
+                            </a>
+                          </li>
+                        </ul>
+                      </nav>
+                    </li>
+
+                    <li class="md-nav__item">
+                      <a href="about/" class="md-nav__link">
+                        <span class="md-ellipsis"> Foundational Design Principles </span>
+                      </a>
+                    </li>
+
+                    <li class="md-nav__item">
+                      <a href="about/" class="md-nav__link">
                         <span class="md-ellipsis"> About </span>
                       </a>
                     </li>
@@ -250,28 +288,55 @@
                 <nav
                   class="md-nav md-nav--secondary"
                   aria-label="Table of contents"
-                ></nav>
+                >
+                  <label class="md-nav__title" for="__toc">
+                    <span class="md-nav__icon md-icon"></span>
+                    Table of contents
+                  </label>
+                  <ul
+                    class="md-nav__list"
+                    data-md-component="toc"
+                    data-md-scrollfix
+                  >
+                    <li class="md-nav__item">
+                      <a href="#introduction" class="md-nav__link">
+                        <span class="md-ellipsis"> Introduction </span>
+                      </a>
+                    </li>
+                  </ul>
+                </nav>
               </div>
             </div>
           </div>
 
           <div class="md-content" data-md-component="content">
             <article class="md-content__inner md-typeset">
-              <h1>About</h1>
+              <h1>Home</h1>
 
+              <h2 id="introduction">Introduction</h2>
               <p>
-                My name is José Tandavala, I started my career as a web
-                developer in 2014 in my hometown (Lobito) building software for
-                small and medium-sized companies. Currently, I work as a Senior
-                software developer in a multinational company based in Luanda
-                building software for various industries namely: civil
-                engineering, logistics, financial, HR, etc.
+                Welcome to my digital garden, a living Journal of Projects and
+                Ideas, in this space I share my projects, ideas, and thoughts.
+                This is a place to showcase what's in progress rather than
+                focusing on polished results or perfect performance. It's a
+                window into my mind, where you can explore what I'm learning,
+                creating, and thinking about, even when it's still taking shape.
               </p>
               <p>
-                I realized the importance of data science in today's world and
-                aim to enhance new skills in machine learning to develop systems
-                that leverage data for prediction, recommendation, and pattern
-                discovery.
+                Here, everything is a work in progress—an ever-evolving
+                collection of my experiments, curiosities, and passions. I
+                believe that creativity doesn't need to be perfect to be shared,
+                and sometimes the best ideas come from the messiest drafts. In
+                this space, you'll find projects in different stages of
+                development, from the first sparks of inspiration to
+                almost-finished works. It’s less about the destination and more
+                about the journey of discovery.
+              </p>
+              <p>
+                Feel free to explore, comment, and connect with me along the
+                way. Whether you're here to gain insights, offer feedback, or
+                simply follow along with my latest endeavors, I hope this garden
+                of ideas sparks your own creativity
               </p>
             </article>
           </div>
@@ -308,9 +373,9 @@
 
     <script id="__config" type="application/json">
       {
-        "base": "..",
+        "base": ".",
         "features": [],
-        "search": "../assets/javascripts/workers/search.6ce7567c.min.js",
+        "search": "assets/javascripts/workers/search.6ce7567c.min.js",
         "translations": {
           "clipboard.copied": "Copied to clipboard",
           "clipboard.copy": "Copy to clipboard",
@@ -326,6 +391,6 @@
       }
     </script>
 
-    <script src="../assets/javascripts/bundle.83f73b43.min.js"></script>
+    <script src="assets/javascripts/bundle.83f73b43.min.js"></script>
   </body>
 </html>
